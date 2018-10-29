@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-
+# PLZ GIT WORK
 def change_brightness_contrast(img, b, c):  # Adds brightness and contrast
     return cv2.addWeighted(img, 1. + c / 127., img, 0, b - c)
 
