@@ -26,9 +26,7 @@ camera = pylon.InstantCamera(pylon.TlFactory.GetInstance().CreateFirstDevice())
 
 # Grabing Continusely (video) with minimal delay
 camera.StartGrabbing(pylon.GrabStrategy_LatestImageOnly)
-
-# camera.GetDeviceInfo().SetPropertyValue("Expose time", "8")
-# cam.properties['ExposureTime'] = 1000
+camera.GetDeviceInfo().SetPropertyValue("Expose time", "8")
 
 converter = pylon.ImageFormatConverter()
 
