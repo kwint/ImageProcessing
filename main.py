@@ -1,7 +1,3 @@
-'''
-A simple Program for grabing video from basler camera and converting it to opencv img.
-Tested on Basler acA1300-200uc (USB3, linux 64bit , python 3.5)
-'''
 from pypylon import pylon
 import cv2
 
